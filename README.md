@@ -26,5 +26,16 @@ We also have a version of this project built with Vanilla JavaScript, Bootstrap 
 Check it out here: [Vanilla JavaScript Repository](https://github.com/fahimahmedd/cart-functionality-with-vanilla-js-and-bootstrap5)
 
 
+## Installation
+
+ To install and set up this Vue.js Vite project, follow these steps:
+
+```bash
+   git clone https://github.com/fahimahmedd/cart-functionality-with-vue-js-and-tailwindcss
+   cd repository-name
+   npm install
+   npm run dev
+```
+
 ## 
 Thank you for visiting this repository! Happy coding! 🎉
