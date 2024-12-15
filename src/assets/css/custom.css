@@ -1,0 +1,14 @@
+.product-review-box ion-icon {
+  color: #ffd200;
+  font-size: 18px;
+}
+.m-text-wrap{
+  display: block; 
+  display: -webkit-box;
+  height: 1; 
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
