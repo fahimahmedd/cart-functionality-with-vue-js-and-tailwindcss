@@ -46,16 +46,8 @@ const closeModal = () => {
               <thead>
                 <tr>
                   <th class="table-heading text-left w-[40%]">Item</th>
-                  <th
-                    class="table-heading text-center w-[15%]"
-                  >
-                    Color
-                  </th>
-                  <th
-                    class="table-heading text-center w-[15%]"
-                  >
-                    Size
-                  </th>
+                  <th class="table-heading text-center w-[15%]">Color</th>
+                  <th class="table-heading text-center w-[15%]">Size</th>
                   <th class="table-heading text-center w-[15%]">Qnt</th>
                   <th class="table-heading text-right w-[15%]">Price</th>
                 </tr>
@@ -70,24 +62,22 @@ const closeModal = () => {
                         alt="Product image"
                       />
                     </div>
-                    <span class="m-text-wrap text-sm text-slate-700">Classy Modern Smart Watch</span>
+                    <span class="m-text-wrap text-sm text-slate-700"
+                      >Classy Modern Smart Watch</span
+                    >
                   </td>
-                  <td
-                    class="text-center text-sm text-slate-700"
-                  >
+                  <td class="text-center text-sm text-slate-700">
                     {{
                       item.color.charAt(0).toUpperCase() + item.color.slice(1)
                     }}
                   </td>
-                  <td
-                    class="text-center text-sm text-slate-700 font-medium"
-                  >
+                  <td class="text-center text-md text-slate-700 font-medium">
                     {{ item.size }}
                   </td>
-                  <td class="text-center text-sm text-slate-700 font-medium">
+                  <td class="text-center text-md text-slate-700 font-medium">
                     {{ item.qty }}
                   </td>
-                  <td class="text-right text-sm text-slate-700 font-medium">
+                  <td class="text-right text-md text-slate-700 font-medium">
                     ${{ item.price }}
                   </td>
                 </tr>
@@ -95,12 +85,8 @@ const closeModal = () => {
               <tbody>
                 <tr>
                   <td class="py-5 text-sm text-slate-700 font-medium">Total</td>
-                  <td
-                    class="text-center text-sm text-slate-700 "
-                  ></td>
-                  <td
-                    class="text-center text-sm text-slate-700 font-medium"
-                  ></td>
+                  <td></td>
+                  <td></td>
                   <td class="text-center text-sm text-slate-700 font-medium">
                     {{ productUse.totalQuantity }}
                   </td>
