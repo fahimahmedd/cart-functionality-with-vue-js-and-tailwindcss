@@ -9,14 +9,14 @@ This project is a modern implementation of a Product Showcase Application, devel
 - Dynamic Product Features 
 - Tailwind CSS: Fully responsive and visually appealing design.
 
-## Technologies Used
+## Technologies Used 🛠️
 
 - Vue.js 3: Leveraging the powerful Composition API for modern, scalable applications.
 - Tailwind CSS: For rapid UI development and consistent styling.
 - Pinia: State management library for smooth and intuitive state handling.
 - Vite: For fast development and optimized production builds.
 
-## Live Preview
+## Live Preview 🌐
 Experience the project live: View Demo
 [**View Demo**](https://cart-vue-js.netlify.app/)
 
