@@ -18,10 +18,10 @@ export const useProduct = defineStore("useProduct", () => {
   // Thumbnail and Color Management
   const selectedColor = ref("purple");
   const colorImages = {
-    purple: "src/assets/images/product/p-1.png",
-    accent: "src/assets/images/product/p-2.png",
-    blue: "src/assets/images/product/p-3.png",
-    black: "src/assets/images/product/p-4.png",
+    purple: "/images/product/p-1.png",
+    accent: "/images/product/p-2.png",
+    blue: "/images/product/p-3.png",
+    black: "/images/product/p-4.png",
   };
   const selectedImage = computed(() => colorImages[selectedColor.value]);
   const changeColor = (color) => {
