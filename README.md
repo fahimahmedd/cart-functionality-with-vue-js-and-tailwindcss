@@ -21,10 +21,6 @@ Experience the project live: View Demo
 [**View Demo**](https://cart-vue-js.netlify.app/)
 
 
-## Vanilla JavaScript Version 🌀
-We also have a version of this project built with Vanilla JavaScript, Bootstrap 5, and SCSS!
-Check it out here: [Vanilla JavaScript Repository](https://github.com/fahimahmedd/cart-functionality-with-vanilla-js-and-bootstrap5)
-
 
 ## Installation
 
