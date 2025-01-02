@@ -2,6 +2,10 @@
 
 This project is a modern implementation of a Product Showcase Application, developed using Vue.js 3 Composition API and styled with Tailwind CSS. It follows a fully component-based architecture and uses Pinia for efficient state management, ensuring scalability and maintainability.
 
+## Live Preview 🌐
+Experience the project live: View Demo
+[**View Demo**](https://cart-vue-js.netlify.app/)
+
 ## Features 🚀
 
 - Component-Based Architecture: Organized and modular codebase for enhanced reusability and flexibility
@@ -15,11 +19,6 @@ This project is a modern implementation of a Product Showcase Application, devel
 - Tailwind CSS: For rapid UI development and consistent styling.
 - Pinia: State management library for smooth and intuitive state handling.
 - Vite: For fast development and optimized production builds.
-
-## Live Preview 🌐
-Experience the project live: View Demo
-[**View Demo**](https://cart-vue-js.netlify.app/)
-
 
 
 ## Installation
